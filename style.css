@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Merriweather:wght@900&family=Mochiy+Pop+One&family=Montserrat:wght@400;700&family=Orbitron:wght@400;500&family=Roboto&family=Sansita+Swashed:wght@300;400;504;600&family=Squada+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Merriweather:wght@900&family=Mochiy+Pop+One&family=Montserrat:wght@400;700&family=Orbitron:wght@400;500&family=Roboto&family=Sansita+Swashed:wght@300;400;504;600&family=Secular+One&family=Squada+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Merriweather:wght@900&family=Mochiy+Pop+One&family=Montserrat:wght@400;700&family=Orbitron:wght@400;500&family=Passion+One&family=Roboto&family=Sansita+Swashed:wght@300;400;504;600&family=Secular+One&family=Squada+One&display=swap");
+
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  background-color: #f5f2f0;
+  font-family: "Merriweather";
+}
+.container {
+  display: flex;
+}
+
+.girl  img {
+  width: 595px;
+}
+.girl span{
+  position: absolute;
+  left: -150px;
+  top: 25px;
+  
+}
+.logo{
+  height: 40px;
+}
+nav span hr{
+  border: none;
+  height: 2px;
+  background-color: #333333;
+  width: 250px;
+  position: relative;
+  right: 330px;
+  top: 27px;
+  
+}
+.list-items {
+  display: flex;
+  list-style: none;
+  color: #828282;
+  justify-content: flex-end;
+}
+.list-items > li {
+  margin: 0 55px;
+}
+
+.mid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 50px;
+  height: 400px;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.social  div {
+  padding: 20px 0px;
+  cursor: pointer;
+}
+.right {
+  width: 1800px;
+  height: 720px;
+}
+
+.heading  h1 {
+  position: relative;
+  left: 120px;
+  bottom: 0px;
+  font-size: 110px;
+  line-height: 110px;
+  width: 400px;
+  font-family: "Merriweather";
+  font-weight: 900;
+  color: #f5f2f0;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.heading  h1  span {
+  display: inline-block;
+  color: #333333;
+  text-indent: 145px;
+}
+.heading  p {
+  font-family: serif;
+  font-size: 35px;
+  font-weight: 400;
+  color: #828282;
+  position: relative;
+  left: 625px;
+  bottom: 160px;
+  width: 200px;
+}
+
+button {
+  padding: 20px 90px;
+  background-color: #333333;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+div > hr {
+  border: none;
+  height: 2px;
+  background-color: #333333;
+  width: 300px;
+  transform: rotate(90deg);
+  position: relative;
+  right: 300px;
+  top: 90px;
+}
+.dots {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  bottom: 70px;
+  left: 152px;
+  width: 150px;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 370px;
+  left: 190px;
+  padding: 2px 0;
+  width: 150px;
+}
+.dot {
+  height: 20px;
+  width: 20px;
+  margin: 20px 0;
+  background-color: #828282;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot:hover {
+  background-color: #333333;
+  cursor: pointer;
+}
+.cont1 {
+  color: #828282;
+  margin: 18px 0;
+}
+.cont1:hover {
+  color: #333333;
+  cursor: pointer;
+}
+.cont2 {
+  height: 350px;
+  width: 410px;
+  position: relative;
+  bottom: 600px;
+  left: 400px;
+}
+.cont2  h1 {
+  margin: -57px 0px;
+  font-family: "Passion One";
+  font-size: 95px;
+
+}
+.cont2  h3 {
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+.cont2  img {
+  height: 300px;
+  margin-top: -10px;
+}
